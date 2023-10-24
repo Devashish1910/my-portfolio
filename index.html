@@ -13,7 +13,7 @@
 
 
     <!-- Header -->
-    <nav class="  h-20 justify-center items-center flex pt-10">
+    <nav class="  h-20 justify-center items-center flex pt-10 mb">
         <div class="text-3xl flex space-x-0 justify-normal me-24  ">Devashish J</div>
         <ul class="flex space-x-4 ms-60">
             <li class=" ps-5 text-2xl"><a
@@ -33,24 +33,25 @@
 
     <!-- Header -->
 
-    <!-- Inulo -->
-    <div class="m-24 flex ">
+    <!-- Intro -->
+    <div class="m-24 flex p-10">
         <!-- photo -->
-        <div class="h-full">
-            <img class=" w-96 ms-56 me-20 rounded-full" src="/assets/profile-pic.png" alt="profile-pic" srcset="">
+        <div class="h-full ">
+            <img class=" w-96 ms-56 me-20 rounded-full   " src="/assets/profile-pic.png" alt="profile-pic" srcset="">
         </div>
 
         <!-- text -->
         <div class=" text-center   justify-center  align-middle pt-14">
-            <p class="text-lg font-normal text-gray-600 my-3">Hello, I'm</p>
+            <p class="text-lg font-medium text-gray-600 my-3">Hello, I'm</p>
             <p class="text-black text-3xl font-bold  my-3">Devashish Jaybhaye</p>
             <p class="font-semibold text-2xl text-gray-600 my-3">Frontend Developer</p>
 
             <!-- Buttons -->
 
-            <button type="button "
-                class=" border-2 border-black p-3 font-poppin text-base  rounded-3xl mx-2 my-3 hover:bg-black hover:text-white font-semibold transition-all  duration-300 ">Download
-                CV</button>
+            <button type="button"
+                class="border-2 border-black p-3 font-poppin text-base  rounded-3xl mx-2 my-3 hover:bg-black hover:text-white font-semibold transition-all  duration-300 "><a
+                    href="https://drive.google.com/file/d/1U5pZRbr-82cBwrmuVh55KCW0XRT12PgR/view?usp=share_link"
+                    target="_blank">Download CV</a></button>
             <button type="button "
                 class=" border-2 border-black p-3 font-poppin text-base   rounded-3xl mx-2 my-3 hover:bg-black hover:text-white font-semibold transition-all  duration-300 ">Contact
                 Info</button>
@@ -61,7 +62,7 @@
                             src="assets/github.png" alt=""></a></button> -->
                 <button class="item">
                     <a href="https://www.linkedin.com/in/devashishjaybhaye/">
-                        <i class="fa-brands fa-linkedin-in icon"> </i>
+                        <i class="fa-brands fa-linkedin-in icon "> </i>
                     </a>
                 </button>
                 <button class="item mx-3">
@@ -92,14 +93,14 @@
                 <div>
                     <div class=" inline-flex justify-center my-10">
                         <div class="h-40 w-80 m-5 border-gray-500 border-2 rounded-3xl ">
-                            <img class="h-10 mx-auto mt-8" src="assets/education.png" alt="edu-icon">
+                            <img class="h-10 mx-auto mt-5" src="assets/education.png" alt="edu-icon">
                             <h1 class="text-center font-semibold text-lg">Education</h1>
                             <p class="text-center text-base font-medium"> Bachelor of Technology </p>
                             <p class="text-center text-sm">Computer Science And Engineering</p>
                         </div>
 
                         <div class="h-40 w-80 m-5 border-gray-500 border-2 rounded-3xl ">
-                            <img class="h-10 mx-auto mt-8" src="assets/experience.png" alt="exp-icon">
+                            <img class="h-10 mx-auto mt-5" src="assets/experience.png" alt="exp-icon">
                             <h1 class="text-center font-semibold text-lg">Experience</h1>
                             <p class="text-center text-base font-medium"> Web Development Intern </p>
                             <p class="text-center text-sm pb-4">Company : Primathink Technology</p>
@@ -107,20 +108,14 @@
                     </div>
 
 
-                    <div class="  w-[700px] h-32   text-justify p-5 mb-16 relative bottom-10">
+                    <div class="  w-[700px] h-32   text-justify p-5 mb-16 relative bottom-10 text-gray-600">
                         <p class=""> As a final-year Computer Science and Engineering student, I excel in Java and
-                            Python,
-                            with
-                            a solid
-                            foundation in web
-                            development (HTML, CSS, JavaScript, Bootsulap, and Tailwind CSS). I’ve integrated AOS
-                            (Animate
-                            On
-                            Scroll) for enhanced
-                            user experiences and have a knack for rapidly adapting to new technologies. Excited to
-                            conulibute my
-                            skills and enthusiasm
-                            to a dynamic tech team.
+                            Python,with a solid foundation in web development (HTML, CSS, JavaScript, Bootstrap, and
+                            Tailwind CSS). I’ve integrated AOS (Animate On Scroll) for enhanced user experiences and
+                            have a knack for rapidly adapting to new technologies. Excited to
+                            contribute my skills and enthusiasm to a dynamic tech team.
+
+
                         </p>
                     </div>
                 </div>
@@ -129,8 +124,8 @@
     </section>
 
     <!-- Experience -->
-    <section class="my-20">
-        <div class="mx-auto text-center pb-5 ">
+    <section class="my-24">
+        <div class="mx-auto text-center py-5 ">
             <h6 class="text-base ">Explore My</h6>
             <h1 class="text-5xl font-bold ">Experience</h1>
         </div>
@@ -242,27 +237,29 @@
     <!-- Experience -->
     <!-- Projects -->
     <section class="Project-container m-14">
-        <div class="heading block text-center m-2">
+        <div class="heading block text-center m-2 py-6">
             <h6 class="text-base">Browse My Recent</h6>
             <h1 class="text-5xl font-semibold">Projects</h1>
         </div>
 
         <div class="project-cards mx-20 flex justify-center flex-1">
             <div class="project-card m-8 border-2 border-gray-400 w-9/12 h-full text-center  py-5 px-10 rounded-3xl">
-                <img class="rounded-3xl " src="assets/project-1.png" alt="">
-                <h1 class="text-2xl font-semibold m-5">Project1</h1>
+                <img class="rounded-3xl " src="assets/vizfaculty.png" alt="">
+                <h1 class="text-2xl font-semibold mt-4">VizFaculty</h1>
+                <p class="text-gray-500 p-3"> A Visiting Faculty Salary Management Web App</p>
                 <article class="justify-between ">
                     <button
                         class=" w-32 p-4 m-1 text-black rounded-full text-sm font-semibold border-2 border-gray-400 hover:text-white hover:bg-black transition-all duration-300 ease-linear">Github</button>
-                    <button
-                        class=" w-32 p-4  text-black rounded-full text-sm font-semibold border-2 border-gray-400 hover:text-white hover:bg-black transition-all duration-300 ease-linear ">Live
-                        Demo</button>
+                    <button 
+                        class=" w-32 p-4  text-black rounded-full text-sm font-semibold border-2 border-gray-400 hover:text-white hover:bg-black transition-all duration-300 ease-linear "><a target="_blank" href="https://vizfaculty.vercel.app/">Live Demo</a> 
+                        </button>
                 </article>
             </div>
 
             <div class="project-card m-8 border-2 border-gray-400 w-9/12 h-full text-center  py-5 px-10 rounded-3xl">
-                <img class="rounded-3xl " src="assets/project-2.png" alt="">
-                <h1 class="text-2xl font-semibold m-5">Project2</h1>
+                <img class="rounded-3xl box-border content-center" src="assets/clean-ballot.avif" alt="">
+                <h1 class="text-2xl font-semibold mt-4">Clean Ballot</h1>
+                <p class="text-gray-500 p-3"> Face Recognition Voting System Simulation </p>
                 <article class="justify-between ">
                     <button
                         class=" w-32 p-4 m-1 text-black rounded-full text-sm font-semibold border-2 border-gray-400 hover:text-white hover:bg-black transition-all duration-300 ease-linear">Github</button>
@@ -273,7 +270,8 @@
             </div>
             <div class="project-card m-8 border-2 border-gray-400 w-9/12 h-full text-center  py-5 px-10 rounded-3xl">
                 <img class="rounded-3xl " src="assets/project-3.png" alt="">
-                <h1 class="text-2xl font-semibold m-5">Project3</h1>
+                <h1 class="text-2xl font-semibold mt-4">VizFaculty</h1>
+                <p class="text-gray-500 p-3"> A Visiting Faculty Salary Management Web App</p>
                 <article class="justify-between ">
                     <button
                         class=" w-32 p-4 m-1 text-black rounded-full text-sm font-semibold border-2 border-gray-400 hover:text-white hover:bg-black transition-all duration-300 ease-linear">Github</button>
@@ -285,10 +283,52 @@
         </div>
     </section>
     <!-- Projects ends -->
-    <!-- Contact -->
-    <section class="contact content-center justify-center" id="contact"></section>
-    <!-- Contact -->
+    
+    <section class="block mt-48 max-h-full " id="contact">
+        <div class="heading block text-center m-2">
+            <h6 class="text-base">Get in Touch</h6>
+            <h1 class="text-5xl font-semibold py-3">Contact Me</h1>
+        </div>
+        <article class="flex justify-center items-center mx-10 mt-10 mb-56">
+            <div class="  inline-flex border-2 border-gray-400 w-5/12 h-24 justify-center items-center rounded-3xl p-5">
+                <div class=" flex justify-center items-center  gap-2 mx-10">
 
+                    <img src="assets/email.png" class="  inline-flex   w-10 h-10"></img>
+
+                    <a class="inline-flex hover:text-gray-500  hover:border-b text-lg hover:border-gray-400"
+                       target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=devashishjaybhaye@gmail.com">
+                        <p class=" ">devashishjaybhaye@gmail.com</p>
+                    </a>
+
+                </div>
+                <div class="flex justify-center items-center  gap-2 mx-10">
+                    <img src="assets/linkedin.png" class="inline-flex w-8 h-8 "></img>
+                    <a class="inline-flex " href="https://www.linkedin.com/in/devashishjaybhaye/">
+                        <p class="hover:text-gray-500  hover:border-b text-lg font-normal hover:border-gray-400 ">
+                            LinkedIn</p>
+                    </a>
+
+                </div>
+            </div>
+        </article>
+        <article id="footer" class="text-center flex justify-center m-4">
+            <ul class="flex space-x-4 ">
+                <li class=" ps-5 text-2xl"><a
+                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
+                        href="#about">About</a></li>
+                <li class=" ps-5 text-2xl"><a
+                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
+                        href="#">Experience </a></li>
+                <li class=" ps-5 text-2xl"><a
+                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
+                        href="#">Projects</a></li>
+                <li class=" ps-5 text-2xl"><a
+                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
+                        href="#">Contact</a></li>
+            </ul>
+        </article>
+        <h1 class="text-center text-gray-500 p-9 text-lg">Copyright 2023 Devashish. All Rights Reserved.</h1>
+    </section>
 
 </body>
 <script src="script.js"></script>
