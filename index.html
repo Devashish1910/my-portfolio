@@ -9,7 +9,7 @@
     <title>Home</title>
 </head>
 
-<body class="font-poppin ">
+<body class="font-poppin scroll-smooth ">
 
 
     <!-- Header -->
@@ -17,24 +17,24 @@
         <div class="text-3xl flex space-x-0 justify-normal me-24 sm:max-lg:hidden    ">Devashish J</div>
         <ul class="flex space-x-4 ms-60  sm:max-lg:flex sm:max-lg:justify-center sm:max-lg:m-0">
             <li class=" ps-5 text-2xl"><a
-                    class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
-                    href="#about">About</a></li>
+                    class="scroll-link hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
+                    href="#About">About</a></li>
             <li class=" ps-5 text-2xl"><a
-                    class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
-                    href="#">Experience </a></li>
+                    class=" scroll-link hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
+                    href="#Experience">Experience </a></li>
             <li class=" ps-5 text-2xl"><a
-                    class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
-                    href="#">Projects</a></li>
+                    class=" scroll-link hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
+                    href="#Projects">Projects</a></li>
             <li class=" ps-5 text-2xl"><a
-                    class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
-                    href="#">Contact</a></li>
+                    class="scroll-link hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
+                    href="#Contact">Contact</a></li>
         </ul>
     </nav>
 
     <!-- Header -->
 
     <!-- Intro -->
-    <div class="mob-intro m-24 flex p-10 sm:max-lg:block">
+    <div id="" class="mob-intro m-24 flex p-10 sm:max-lg:block">
         <!-- photo -->
         <div class="h-full ">
             <img class=" w-96 ms-56 me-20 rounded-full  sm:max-lg:mx-auto" src="/assets/profile-pic.png"
@@ -49,8 +49,8 @@
 
             <!-- Buttons -->
 
-            <button type="button" 
-                class="border-2 border-black p-3 font-poppin text-base  rounded-3xl mx-2 my-3 hover:bg-black hover:text-white font-semibold transition-all  duration-300 "><a 
+            <button type="button"
+                class="border-2 border-black p-3 font-poppin text-base  rounded-3xl mx-2 my-3 hover:bg-black hover:text-white font-semibold transition-all  duration-300 "><a
                     href="https://drive.google.com/file/d/1U5pZRbr-82cBwrmuVh55KCW0XRT12PgR/view?usp=share_link"
                     target="_blank">Download CV</a></button>
             <button type="button "
@@ -79,7 +79,7 @@
 
 
     <!-- About  -->
-    <section id="about" class="about justify-center mx-auto sm:max-lg:block">
+    <section id="About" class="about justify-center mx-auto sm:max-lg:block">
         <div class="m-32">
             <div class="content-center text-center mx-auto ">
                 <h6 class=" text-base ">Get To Know More</h6>
@@ -90,11 +90,13 @@
             <div class="h-full flex pt-10 mx-auto sm:max-lg:block">
 
                 <div class=" p-5  about-dp  sm:max-lg:m-0">
-                    <img class=" h-[400px] w-[400px] rounded-3xl sm:max-lg:w-auto sm:max-lg:mx-auto  " src="assets/profile-pic2.png" alt="" srcset="">
+                    <img class=" h-[400px] w-[400px] rounded-3xl sm:max-lg:w-auto sm:max-lg:mx-auto  "
+                        src="assets/profile-pic2.png" alt="" srcset="">
                 </div>
                 <div class="about-container sm:max-lg:block ">
                     <div class=" inline-flex justify-center my-10  sm:max-lg:block sm:max-lg:m-2 ">
-                        <div class=" about-container-box  h-40 w-80  m-5 border-gray-500 border-2 rounded-3xl sm:max-lg:w-auto ">
+                        <div
+                            class=" about-container-box  h-40 w-80  m-5 border-gray-500 border-2 rounded-3xl sm:max-lg:w-auto ">
                             <img class="h-10  mx-auto mt-5" src="assets/education.png" alt="edu-icon">
                             <h1 class="text-center font-semibold text-lg">Education</h1>
                             <p class="text-center text-base font-medium"> Bachelor of Technology </p>
@@ -129,7 +131,7 @@
     </section>
 
     <!-- Experience -->
-    <section class=" experience my-24 sm:max-lg:block">
+    <section id="Experience" class=" experience my-24 sm:max-lg:block">
         <div class="exp-heading mx-auto text-center py-5 ">
             <h6 class="text-base ">Explore My</h6>
             <h1 class="text-5xl font-bold ">Experience</h1>
@@ -245,7 +247,7 @@
 
 
     <!-- Projects -->
-    <section class="project-container m-14 ">
+    <section id="Projects" class="project-container m-14 ">
         <div class="heading block text-center m-2 py-6">
             <h6 class="text-base">Browse My Recent</h6>
             <h1 class="text-5xl font-semibold">Projects</h1>
@@ -297,7 +299,7 @@
     </section>
     <!-- Projects ends -->
 
-    <section class="contact block mt-48 max-h-full" id="contact">
+    <section class="contact block mt-48 max-h-full" id="Contact">
         <div class="heading block text-center m-2">
             <h6 class="text-base">Get in Touch</h6>
             <h1 class="text-5xl font-semibold py-3">Contact Me</h1>
@@ -329,17 +331,17 @@
         <article id="footer" class=" navbar text-center flex justify-center m-4">
             <ul class="flex space-x-4 ">
                 <li class=" ps-5 text-2xl"><a
-                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
-                        href="#about">About</a></li>
+                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100 scroll-link"
+                        href="#About">About</a></li>
                 <li class=" ps-5 text-2xl"><a
-                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
-                        href="#">Experience </a></li>
+                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100 scroll-link"
+                        href="#Experience">Experience </a></li>
                 <li class=" ps-5 text-2xl"><a
-                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
-                        href="#">Projects</a></li>
+                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100 scroll-link"
+                        href="#Projects">Projects</a></li>
                 <li class=" ps-5 text-2xl"><a
-                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100"
-                        href="#">Contact</a></li>
+                        class="hover:text-gray-500 hover:border-gray-400   hover:border-b-2 hover:transition-all hover:ease-linear duration-100 scroll-link"
+                        href="#Contact">Contact</a></li>
             </ul>
         </article>
         <h1 class="text-center text-gray-500 p-9 text-lg">Copyright 2023 Devashish. All Rights Reserved.</h1>

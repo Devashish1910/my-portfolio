@@ -74,7 +74,7 @@
     /* CSS rules for mobile view (Vivo V7 and similar devices) */
     body {
       display: block;
-        
+        scroll-behavior: smooth;
         
         /* Adjust other styles for smaller screens */
     }
