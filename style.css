@@ -70,4 +70,170 @@
   /* Circle animation */
   /* media queries */
 
- 
+  @media screen and (max-width: 720px)  {
+    /* CSS rules for mobile view (Vivo V7 and similar devices) */
+    body {
+      display: block;
+        
+        
+        /* Adjust other styles for smaller screens */
+    }
+     .navbar div{
+      display: none;
+      
+    }
+    .navbar ul{
+      flex-direction: row;
+      margin: 0;
+      padding: 0;
+
+    }
+    .navbar ul li{
+      flex-direction: row;
+      margin: 0;
+      padding: 0;
+      font: 16px;
+
+    }
+    .navbar ul li a {
+      font-size: 1rem;}
+ /* intro */
+    .mob-intro{
+      display: block;
+      margin: 0;
+    
+    }
+    .mob-intro .intro-textbox{
+      margin: 0;
+      padding: 0;
+    }
+    .mob-intro div img{
+      margin: 0 auto;
+      
+    }
+/* About  */
+    .about {
+      display: block;
+      font-size: 16px;
+    }
+    .about div {
+      display: block;
+      margin: 0;
+    }
+    .about div div {
+     margin: 0;
+     padding: 0;
+
+    }
+    .about .about-dp{
+      display: block;
+      margin: 2rem;
+      
+    }
+    .about .about-container{
+      display: block;
+      margin: 0 ;
+      padding: 0;
+
+    }
+    .about .about-container-box{
+      
+      margin: 10% auto;
+      padding: 0 ;
+    }
+
+    .about .about-box{
+      width: 100%;
+      height: auto;
+      margin: 0 auto ;
+      padding:  auto;
+      font-weight: 400;
+    }
+
+    /* experience */
+    .experience{
+      display: block;
+      margin: 0;
+      
+    }
+    .experience .exp-heading{
+      display: block;
+      margin:  0;
+    }
+    .experience .exp-container{
+      display: grid;
+      margin: 0;
+      padding: 0;
+      width: auto;
+      
+    }
+    .experience .exp-container .exp-container-box{
+      margin: 5vw auto;
+      width: 80vw;
+      
+    }
+    .experience .exp-container .exp-container-box article{
+      display: flexbox;
+      
+     
+    }
+
+    /* Projects */
+    .project-container{
+      display: block;
+      width: auto;
+      margin: 0 auto;
+    }
+    .project-container .project-cards {
+      width: auto;
+      display: block;
+      margin: 0;
+    }
+    .project-container .project-cards .project-card{
+      display: block;
+      width: auto;
+      margin:  10%;
+      padding: 20px 10px;
+    }
+    .project-container .project-cards .project-card img{
+      padding: 5%;
+      border-radius: 15%;
+    }
+    .project-container .project-cards .project-card article{
+      display: block;
+      box-sizing: border-box;
+    }
+    .project-container .project-cards .project-card article button{
+      display: inline;
+    }
+
+    /*contact  */
+
+   .contact{
+    
+    margin: 2px;
+    padding: 0;
+   }
+   .contact-box{
+    
+    width: 100vw ;
+    padding: 0;
+   
+   }
+   .contact-box div{
+    
+    margin: 1rem;
+    padding:  0.5rem;
+   }
+   .contact-box div p{
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+   }
+   .contact-box div img{
+  
+   }
+   .contact ul li{
+    font-size: 1.2rem;
+   }
+}

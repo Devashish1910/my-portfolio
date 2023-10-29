@@ -9,11 +9,11 @@
     <title>Home</title>
 </head>
 
-<body class="font-poppin  ">
+<body class="font-poppin ">
 
 
     <!-- Header -->
-    <nav class="  h-20 justify-center items-center flex pt-10  ">
+    <nav class="navbar  h-20 justify-center items-center flex pt-10  ">
         <div class="text-3xl flex space-x-0 justify-normal me-24 sm:max-lg:hidden    ">Devashish J</div>
         <ul class="flex space-x-4 ms-60  sm:max-lg:block">
             <li class=" ps-5 text-2xl"><a
@@ -34,7 +34,7 @@
     <!-- Header -->
 
     <!-- Intro -->
-    <div class="m-24 flex p-10 sm:max-lg:block">
+    <div class="mob-intro m-24 flex p-10 sm:max-lg:block">
         <!-- photo -->
         <div class="h-full ">
             <img class=" w-96 ms-56 me-20 rounded-full  sm:max-lg:mx-auto" src="/assets/profile-pic.png"
@@ -42,15 +42,15 @@
         </div>
 
         <!-- text -->
-        <div class=" text-center   justify-center  align-middle pt-14 sm:max-lg:mx-auto">
+        <div class="intro-textbox text-center   justify-center  align-middle pt-14 sm:max-lg:mx-auto">
             <p class="text-lg font-medium text-gray-600 my-3">Hello, I'm</p>
             <p class="text-black text-3xl font-bold  my-3">Devashish Jaybhaye</p>
             <p class="font-semibold text-2xl text-gray-600 my-3">Frontend Developer</p>
 
             <!-- Buttons -->
 
-            <button type="button"
-                class="border-2 border-black p-3 font-poppin text-base  rounded-3xl mx-2 my-3 hover:bg-black hover:text-white font-semibold transition-all  duration-300 "><a
+            <button type="button" 
+                class="border-2 border-black p-3 font-poppin text-base  rounded-3xl mx-2 my-3 hover:bg-black hover:text-white font-semibold transition-all  duration-300 "><a 
                     href="https://drive.google.com/file/d/1U5pZRbr-82cBwrmuVh55KCW0XRT12PgR/view?usp=share_link"
                     target="_blank">Download CV</a></button>
             <button type="button "
@@ -62,13 +62,13 @@
                 <button type="button"> <a href="https://github.com/Devashish1910" target="_blank"> <img class="w-9 m-2 "
                             src="assets/github.png" alt=""></a></button> -->
                 <button class="item">
-                    <a href="https://www.linkedin.com/in/devashishjaybhaye/">
+                    <a href="https://www.linkedin.com/in/devashishjaybhaye/" target="_blank">
                         <i class="fa-brands fa-linkedin-in icon "> </i>
                     </a>
                 </button>
                 <button class="item mx-3">
                     <a href="https://github.com/Devashish1910">
-                        <i class="fa-brands fa-github icon fa-2x"> </i>
+                        <i class="fa-brands fa-github icon fa-2x" target="_blank"> </i>
                     </a>
                 </button>
 
@@ -79,8 +79,8 @@
 
 
     <!-- About  -->
-    <section id="about" class="justify-center mx-auto sm:max-lg:block">
-        <div class="m-32 ">
+    <section id="about" class="about justify-center mx-auto sm:max-lg:block">
+        <div class="m-32">
             <div class="content-center text-center mx-auto ">
                 <h6 class=" text-base ">Get To Know More</h6>
                 <h1 class="text-5xl font-bold">About Me</h1>
@@ -89,12 +89,12 @@
 
             <div class="h-full flex pt-10 mx-auto sm:max-lg:block">
 
-                <div class=" p-5   ">
-                    <img class=" h-[400px] w-[400px] rounded-3xl  " src="assets/grey-dp.png" alt="" srcset="">
+                <div class=" p-5  about-dp ">
+                    <img class=" h-[400px] w-[400px] rounded-3xl  " src="assets/profile-pic2.png" alt="" srcset="">
                 </div>
-                <div class="sm:max-lg:block ">
+                <div class="about-container sm:max-lg:block ">
                     <div class=" inline-flex justify-center my-10  sm:max-lg:block sm:max-lg:m-2 ">
-                        <div class="h-40 w-80  m-5 border-gray-500 border-2 rounded-3xl sm:max-lg:w-auto ">
+                        <div class=" about-container-box  h-40 w-80  m-5 border-gray-500 border-2 rounded-3xl sm:max-lg:w-auto ">
                             <img class="h-10  mx-auto mt-5" src="assets/education.png" alt="edu-icon">
                             <h1 class="text-center font-semibold text-lg">Education</h1>
                             <p class="text-center text-base font-medium"> Bachelor of Technology </p>
@@ -102,7 +102,7 @@
                         </div>
 
                         <div
-                            class="h-40  w-80 m-5 border-gray-500 border-2 rounded-3xl  sm:max-lg:my-3 sm:max-lg:w-auto">
+                            class=" about-container-box  h-40  w-80 m-5 border-gray-500 border-2 rounded-3xl  sm:max-lg:my-3 sm:max-lg:w-auto">
                             <img class="h-10 mx-auto mt-5" src="assets/experience.png" alt="exp-icon">
                             <h1 class="text-center font-semibold text-lg">Experience</h1>
                             <p class="text-center text-base font-medium"> Web Development Intern </p>
@@ -113,7 +113,7 @@
 
 
                     <p
-                        class="w-[45vw] h-32   text-justify p-5 mb-16  relative bottom-10 text-gray-600 sm:max-lg:block sm:max-lg:w-auto sm:max-lg:my-20 ">
+                        class=" about-box w-[45vw] h-32   text-justify p-5 mb-16  relative bottom-10 text-gray-600 sm:max-lg:block sm:max-lg:w-auto sm:max-lg:my-20 ">
                         As a final-year Computer Science and Engineering student, I excel in Java and
                         Python,with a solid foundation in web development (HTML, CSS, JavaScript, Bootstrap, and
                         Tailwind CSS). I’ve integrated AOS (Animate On Scroll) for enhanced user experiences and
@@ -129,18 +129,18 @@
     </section>
 
     <!-- Experience -->
-    <section class="my-24 sm:max-lg:block">
-        <div class="mx-auto text-center py-5 ">
+    <section class=" experience my-24 sm:max-lg:block">
+        <div class="exp-heading mx-auto text-center py-5 ">
             <h6 class="text-base ">Explore My</h6>
             <h1 class="text-5xl font-bold ">Experience</h1>
         </div>
 
 
         <div id="experience-containers " class="my-20 ">
-            <div class="flex mx-20 my-4 flex-1 text-center sm:max-lg:flex sm:max-lg:flex-col ">
+            <div class="exp-container flex mx-20 my-4 flex-1 text-center sm:max-lg:flex sm:max-lg:flex-col ">
                 <!-- Frontend Skills -->
                 <div
-                    class="mx-14   w-6/12 border-2 border-gray-500 p-7 rounded-3xl  justify-center sm:max-lg:w-auto sm:max-lg:m-4">
+                    class=" exp-container-box mx-14   w-6/12 border-2 border-gray-500 p-7 rounded-3xl  justify-center sm:max-lg:w-auto sm:max-lg:m-4">
                     <h1 class=" flex text-3xl text-gray-600 font-semibold justify-center  p-5">Frontend Development
                     </h1>
                     <div class=" article-container flex  gap-10 flex-wrap flex-row justify-center ">
@@ -191,7 +191,7 @@
 
                 <!-- Other skills -->
                 <div
-                    class=" mx-14 w-6/12   border-2 border-gray-500 p-7 rounded-3xl  justify-center sm:max-lg:w-auto sm:max-lg:m-4">
+                    class="exp-container-box mx-14 w-6/12   border-2 border-gray-500 p-7 rounded-3xl  justify-center sm:max-lg:w-auto sm:max-lg:m-4">
                     <h1 class="flex text-3xl text-gray-600 font-semibold justify-center  p-5">Other skills</h1>
                     <div class=" article-container flex  gap-10 flex-wrap flex-row justify-center ">
                         <article class=" flex justify-left mx-2  w-40  gap-2  text-left ">
@@ -242,8 +242,10 @@
         </div>
     </section>
     <!-- Experience -->
+
+
     <!-- Projects -->
-    <section class="Project-container m-14 ">
+    <section class="project-container m-14 ">
         <div class="heading block text-center m-2 py-6">
             <h6 class="text-base">Browse My Recent</h6>
             <h1 class="text-5xl font-semibold">Projects</h1>
@@ -295,19 +297,19 @@
     </section>
     <!-- Projects ends -->
 
-    <section class="block mt-48 max-h-full " id="contact">
+    <section class="contact block mt-48 max-h-full" id="contact">
         <div class="heading block text-center m-2">
             <h6 class="text-base">Get in Touch</h6>
             <h1 class="text-5xl font-semibold py-3">Contact Me</h1>
         </div>
         <article class="flex justify-center items-center mx-10 mt-10 mb-56">
             <div
-                class="  inline-flex border-2 border-gray-400 w-5/12 h-24 justify-center items-center rounded-3xl p-5 sm:max-lg:w-auto">
+                class=" contact-box inline-flex border-2 border-gray-400 w-5/12 h-24 justify-center items-center rounded-3xl p-5 sm:max-lg:w-auto">
                 <div class=" flex justify-center items-center  gap-2 mx-10">
 
                     <img src="assets/email.png" class="  inline-flex   w-10 h-10"></img>
 
-                    <a class="inline-flex hover:text-gray-500  hover:border-b text-lg hover:border-gray-400 "
+                    <a class="inline-flex hover:text-gray-500  hover:border-b text-lg hover:border-gray-400"
                         target="_blank"
                         href="https://mail.google.com/mail/?view=cm&fs=1&to=devashishjaybhaye@gmail.com">
                         <p class=" ">devashishjaybhaye@gmail.com</p>
