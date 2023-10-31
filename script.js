@@ -1,4 +1,9 @@
+
+
+
+
  // Select all links with the class "scroll-link"
+
  const scrollLinks = document.querySelectorAll('.scroll-link');
 
  // Add smooth scrolling to all links
