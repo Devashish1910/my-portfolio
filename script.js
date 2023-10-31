@@ -1,6 +1,6 @@
 
 
-AOS.init();
+
 
  // Select all links with the class "scroll-link"
 
@@ -21,3 +21,4 @@ AOS.init();
 
  
 
+AOS.init();
