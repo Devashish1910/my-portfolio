@@ -130,6 +130,11 @@
       margin: 2rem;
       
     }
+    .about .about-dp img{
+      object-fit: cover;
+      width: 100vw;
+      
+    }
     .about .about-container{
       display: block;
       margin: 0 ;
